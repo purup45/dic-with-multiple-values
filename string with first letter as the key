@@ -1,0 +1,8 @@
+t={}
+
+for i in s:
+   if i[0] in t:
+       t[i[0]].append(i)
+   else:
+       t.update({i[0]:[i]})
+print (t)
